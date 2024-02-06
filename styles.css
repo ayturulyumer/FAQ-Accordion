@@ -104,9 +104,16 @@ body {
   margin-bottom: 1em;
 }
 
+.group1:hover {
+    color: purple;
+    cursor: pointer;
+    
+}
+
 .group1 img {
   height: 30px;
   width: 30px;
+  cursor: pointer;
 }
 
 @media (min-width: 800px) {
