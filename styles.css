@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+button {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  padding: 0.5em 0.8em;
+  border: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(292, 42%, 14%);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/background-pattern-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 15rem;
+}
+
+@media (min-width: 800px) {
+  .bg-image {
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    height: 20rem;
+    width: 100vw;
+  }
+}
+
+.container {
+  z-index: 1;
+  margin-top: 10em;
+  background-color: white;
+  width: 20rem;
+  height: auto;
+  padding: 2rem;
+  text-align: left;
+  border: 1px solid inherit;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 17px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 17px 8px rgba(0, 0, 0, 0.4);
+}
+
+.container-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.container-header img {
+  height: 30px;
+  width: 30px;
+}
+
+.container-main article {
+  margin: 1em 0 3em 0;
+}
+
+.group1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5em;
+  margin-bottom: 1em;
+}
+
+.group1 img {
+  height: 30px;
+  width: 30px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 40rem;
+  }
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  .container-header img {
+    height: 70px;
+    width: 40px;
+  }
+}
