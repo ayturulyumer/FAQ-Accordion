@@ -9,8 +9,8 @@
 
 
  Stack used:
- # ![image](https://github.com/ajummer/ajummer/assets/142006703/c95b4c41-6dcb-438f-a213-b07632405322) 
-# ![image](https://github.com/ajummer/ajummer/assets/142006703/4b2570b7-4950-4d8f-acd9-73266dc08993)  - 
+ - ![image](https://github.com/ajummer/ajummer/assets/142006703/c95b4c41-6dcb-438f-a213-b07632405322) 
+- ![image](https://github.com/ajummer/ajummer/assets/142006703/4b2570b7-4950-4d8f-acd9-73266dc08993)  
  - Mobile First Approach 
  - Flexbox
 
